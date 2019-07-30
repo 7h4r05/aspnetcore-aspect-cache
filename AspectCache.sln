@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectCache.Demo", "Demo\AspectCache.Demo\AspectCache.Demo.csproj", "{DD17F63C-4C19-44D6-98C9-9170FD667679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectCache", "AspectCache\AspectCache.csproj", "{30FA771D-ED73-4A36-A694-431A429491B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{A17123F6-68AF-4759-AEA2-B99F7573290A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD17F63C-4C19-44D6-98C9-9170FD667679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD17F63C-4C19-44D6-98C9-9170FD667679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD17F63C-4C19-44D6-98C9-9170FD667679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD17F63C-4C19-44D6-98C9-9170FD667679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FA771D-ED73-4A36-A694-431A429491B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FA771D-ED73-4A36-A694-431A429491B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FA771D-ED73-4A36-A694-431A429491B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FA771D-ED73-4A36-A694-431A429491B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD17F63C-4C19-44D6-98C9-9170FD667679} = {A17123F6-68AF-4759-AEA2-B99F7573290A}
+	EndGlobalSection
+EndGlobal

@@ -4,6 +4,8 @@ ASP.NET Core Reusable cache implementation
 
 You can cache any serializable type of entity with explicit key
 `[CachedAction(CacheKey ="Single", EntityType = typeof(Item))]`
+or use runtime key factory
+`[CachedAction(CacheKey ="Single")]`
 
 
 Provides:

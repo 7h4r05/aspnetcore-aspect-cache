@@ -66,7 +66,7 @@ Register your implementations in service collection
 ```csharp
     services.AddSingleton<ICache, InMemoryCache>();
     services.AddSingleton<ICacheKeyFactory<Item>, ItemKeyFactory>();
-    ```
+```
 
 ### CachedAction
 

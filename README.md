@@ -75,7 +75,7 @@ Finally decorate your actions with attributes to either use a const cache key or
 
 
 ```csharp
-[HttpGet]
+        [HttpGet]
         [CachedAction(CacheKey ="Single", EntityType = typeof(Item))]
         [Route("single")]
         public ActionResult Get()

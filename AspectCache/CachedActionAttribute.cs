@@ -29,7 +29,6 @@ namespace AspectCache
                                     .Invoke(cache, new object[] { cacheKey, result });
                 }
             }
-            
         }
 
         public void OnActionExecuting(ActionExecutingContext context)

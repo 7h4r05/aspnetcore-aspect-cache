@@ -48,6 +48,14 @@ namespace AspectCache.Demo.Controllers
             return Ok(item);
         }
 
+        [HttpPost]
+        [Route("clearBy")]
+        [InvalidateCachedAction(EntityType =typeof(Item))]
+        public ActionResult Invalidate()
+        {
+            return Ok();
+        }
+
 
         [HttpDelete]
         public ActionResult Clear()

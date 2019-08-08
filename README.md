@@ -105,3 +105,19 @@ Finally decorate your actions with attributes to either use a const cache key or
             return Ok(item);
         }
 ```
+
+### Invalidate cache
+
+If you want to invalidate your cache after some POST/PUT/DELETE actions you can decorate a method with `InvalidateCacheAction`
+
+```csharp
+       
+        [HttpPost]
+        [Route("clearBy")]
+        [InvalidateCacheAction(EntityType =typeof(Item))]
+        public ActionResult Invalidate()
+        {
+        //... actions
+            return Ok();
+        }
+```
